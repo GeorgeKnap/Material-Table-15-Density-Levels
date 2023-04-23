@@ -1,0 +1,24 @@
+@use '@angular/material' as mat;
+body {
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 30px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.table-0 {
+  @include mat.table-density(0);
+}
+.table-1 {
+  @include mat.table-density(-1);
+}
+.table-2 {
+  @include mat.table-density(-2);
+}
+.table-3 {
+  @include mat.table-density(-3);
+}
